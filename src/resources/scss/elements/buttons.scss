@@ -1,0 +1,62 @@
+.btn{
+    padding: 8px 16px;
+    background: var(--accent);
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: 500;
+    transition: .3s;
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content;
+    text-transform: uppercase;
+    border: solid 1px transparent;
+
+    &:hover, &:focus, &:focus-visible, &:focus-within{
+        transition: .3s;
+        background: var(--white);
+    }
+
+    &-solid{
+        &.btn-primary{
+            background: var(--accent);
+            color: var(--primary);
+
+            &:hover, &:focus, &:focus-visible, &:focus-within{
+                background: var(--white);
+            }
+        }
+
+        &.btn-secondary{
+            background: var(--white);
+            color: var(--primary);
+
+            &:hover, &:focus, &:focus-visible, &:focus-within{
+                background: var(--accent);
+            }
+        }
+    }
+
+    &-outline{
+        &.btn-primary{
+            border-color: var(--accent);
+            color: var(--white);
+            background: none;
+
+            &:hover, &:focus, &:focus-visible, &:focus-within{
+                background: var(--accent);
+                color: var(--primary);
+            }
+        }
+
+        &.btn-secondary{
+            border-color: var(--white);
+            color: var(--white);
+            background: none;
+
+            &:hover, &:focus, &:focus-visible, &:focus-within{
+                background: var(--white);
+                color: var(--primary);
+            }
+        }
+    }
+}

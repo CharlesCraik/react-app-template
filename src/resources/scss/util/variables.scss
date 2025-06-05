@@ -1,0 +1,28 @@
+// scss variables
+$primary: #090909;
+$secondary: #050505;
+$tertiary: #4D4D4D;
+$accent: #53D287;
+
+$black: #090909;
+$grey: #4D4D4D;
+$white: #FFFFFF;
+
+$title_font: 'DM Mono', serif;
+$body_font: 'DM Mono', sans-serif;
+
+:root {
+    --primary: #{$primary};
+    --secondary: #{$secondary};
+    --tertiary: #{$tertiary};
+    --accent: #{$accent};
+  
+    --text-color: #{$white};
+  
+    --black: #{$black};
+    --grey: #{$grey};
+    --white: #{$white};
+  
+    --title-font: #{$title_font};
+    --body-font: #{$body_font};
+}
